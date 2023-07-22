@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgba(0, 0, 0, 0.7) url(./images/kachifood.jpg) center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container{
+  color: orangered;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.navbar ul li{
+  display: inline-block;
+  padding: 18px;
+  text-transform: uppercase;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 4px;
+  transition: 3.5s;
+}
+
+.navbar ul li a:hover{
+  box-shadow: 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+
+.navbar .RESERVATION{
+  padding: 8px;
+  background-color: orangered;
+}
+
+.content{
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 30%;
+}
+
+.content h3{
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 3opx;
+}
+
+.content h1{
+  font-size: 50px;
+}
+
+.content p{
+  text-align: center;
+  margin-top: 17px;
+}
+
+.search{
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 25%;
+}
+
+.search input{
+  outline: none;
+  border: none;
+  padding: 12px 40px;
+  size: 1em;
+  width: 100%;
+}
+
+.submit{
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 115px;
+}
+
+.submit a{
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 25px;
+  background-color: orangered;
+}
+
+
+
+.about h1{
+  color: orangered;
+  margin-left: 0px;
+  margin-top: 0%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.about h1{
+  font-family: sans-serif;
+  font-size: 80px;
+}
+
+.about h3{
+  color: orangered;
+  margin-left: 0px;
+  margin-top: 0%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.about h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+
+}
+
+.p{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.story{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
